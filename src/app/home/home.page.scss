@@ -1,0 +1,91 @@
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.labelCon {
+  display: flex;
+  flex-direction: column;
+  font-size: 300%;
+  font-weight: 800;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.dollarNum {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-self: center;
+}
+
+.percentNum {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-self: center;
+}
+
+.progCon{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(270deg);
+}
+
+.progBar{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-self: center;
+  margin-right: 45%;
+}
+
+.inputCon{
+    width: 50%;
+    height: 10%;
+    border:  5px solid rgb(0, 0, 0);
+    background-color: #ffc409;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    margin-top: 50%;
+}
+
+.numInput{
+  width: 50%;
+  height: 10%;
+  display: flex;
+  align-self: center;
+}
+
+.btnCon{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end; 
+  margin-top: 10%;
+}
